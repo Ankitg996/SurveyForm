@@ -1,0 +1,20 @@
+.list_item{
+    margin-right: 10px;
+}
+.list_item:hover{
+    background-color: #f4f4f9;
+    border-radius: 0 20px 20px 0;
+    color: black;
+}
+
+.styling01{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.styling02{
+    margin-left: 100px;
+    font-Size: 14px;
+    font-Weight:500;
+    color:grey;
+}
