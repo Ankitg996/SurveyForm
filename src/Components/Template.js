@@ -7,15 +7,15 @@ import AddIcon from '@mui/icons-material/Add';
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import uuid from "react-uuid";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Template() {
 
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const createForm=()=>{
         const id_ = uuid();
-        history.push('/survey_form/' + id_)
+        navigate.push('/survey_form/' + id_)
     }
   return (
     <div className='template_section'>
